@@ -1,20 +1,19 @@
 import React, { Component } from 'react'
 import MiniPalette from './MiniPalette';
-import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/core';
 
 const styles = {
     root: {
         backgroundColor: "blue",
-        height: "100%",
+        height: "200vh",
         display: "flex",
-        justifyContent: "center",
-        alignItems: "flex-start"
+        alignItems: "flex-start",
+        justifyContent: "center"
     },
     container: {
         width: "50%",
         display: "flex",
-        alignItems: "center",
+        alignItems: "flex-start",
         flexDirection: "column",
         flexWrap: "wrap"
     },
